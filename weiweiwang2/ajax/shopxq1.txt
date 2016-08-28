@@ -1,0 +1,40 @@
+[
+  {
+    "Headname":"首页>家具家纺>家饰>被子/毯子> 瀚庭—全棉夏凉被空调被-汽车之家 黄色 1.5x2.0",
+    "shopname":"瀚庭—全棉夏凉被空调被-汽车之家 黄色 1.5x2.0",
+    "url":{
+          "url_1":"ajax/img3/x5 (1).jpg",
+          "url_2":"ajax/img3/x5 (2).jpg",
+          "url_3":"ajax/img3/x5 (3).jpg",
+          "url_4":"ajax/img3/x5 (4).jpg",
+          "url_5":"ajax/img3/x5 (5).jpg"
+        },
+  "scprice": "¥588.00",
+  "shopprice": "¥99.00 ",
+  "sp1":"颜色",
+  "type":{
+          "type_1":{
+          "type1_smimg":"ajax/img3/x5 (1).jpg",
+          "type2_f":"黄色"
+           }
+
+        },
+  "sp2":"尺寸",
+  "size":{
+
+          "size_pid_1":{
+             "size_1":"2.0x2.3m",
+             "pid":"2.0x2.3"
+          },
+          "size_pid_2":{
+               "size_1":"1.5x2.0",
+               "pid":"1.5x2.0"
+            }
+
+
+
+
+    }
+
+  }
+]

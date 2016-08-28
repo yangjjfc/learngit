@@ -1,0 +1,27 @@
+[
+{
+	src:"ajax/img1/1.jpg",
+	content:"德国艾仕壁纸 美式田园复古树枝叶 卧室客厅背景墙纸壁纸",
+	prise:"￥840.00"
+},
+{
+	src:"ajax/img1/2.png",
+	content:"东鹏瓷砖玻化砖抛光砖珊瑚玉YG802073瓷砖",
+	prise:"￥165.00"
+},
+{
+	src:"ajax/img1/3.jpg",
+	content:"林昌地板 L9051圆盘豆",
+	prise:"￥368.00"
+},
+{
+	src:"ajax/img1/4.jpg",
+	content:"瀚庭—2015全棉夏凉被空调被2.0*2.3CM",
+	prise:"￥139.00"
+},
+{
+	src:"ajax/img1/5.jpg",
+	content:"爱舒床垫【舒展01型】加硬护脊 弹簧床垫 3D椰棕床垫席梦",
+	prise:"￥2360.00"
+}
+]

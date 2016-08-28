@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style/golble.css" />
+		<link rel="stylesheet" type="text/css" href="style/style1.css" />
+		<link rel="stylesheet" type="text/css" href="style/style_s.css" />
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/jquery-ui.min.js"></script>	
+		<script src="js/mycookie.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/sub.js"></script>
+	</head>
+	<body>
+		<div class="header_b layout">
+			<div class="logo">
+				<a href="#"><img class="logo1" src="images/h9.png" /></a>
+			</div>
+			<p id="h_p1"><a href="#">帮助中心 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">关于我们</a></p>
+		</div>
+		<div class="content_s">
+			<img src="images/sub1.png"  />
+			<div class="content_s_last">
+						<p>没有账号?<a href="register.html">免费注册</a></p>
+						<form action="post">
+							<input type="text"  placeholder="用户名/手机/邮箱" class="text1"/>
+							<p></p>
+							<input type="password"  placeholder="密码" class="text2"/>
+							<p></p>
+							<input type="text"  placeholder="请输入验证码" class="text3" maxlength="4"/>
+							<div class="verification_code2" onclick="javascript:document.getElementById('codeimage').src='http://www.mallvv.com/shop/index.php?act=seccode&op=makecode&nchash=6093338c&t=' + Math.random();"><img id="codeimage" src="http://www.mallvv.com/shop/index.php?act=seccode&op=makecode&nchash=6093338c&t=' + Math.random();"/></div>
+							<p></p>
+							<p class="post_p1"><a href="#">忘记密码？</a></p>
+							<input type="button"  value="登入" class="btn3"/>
+						</form>		
+			</div>
+			
+			
+		</div>
+		<div class="footer">
+			<p><a href="#">首页</a>  &nbsp;|  &nbsp;<a href="#">招聘英才</a>  &nbsp;|  &nbsp;<a href="#">合作及洽谈</a>  &nbsp;|  &nbsp;<a href="#">联系我们</a>   &nbsp;|  &nbsp;<a href="#"></a>关于我们   &nbsp;|  &nbsp;<a href="#">友情链接 </a></p>
+			<p>Copyright 2015 沪ICP备08001311号 | 营业执照</p>
+		</div>
+	</body>
+</html>

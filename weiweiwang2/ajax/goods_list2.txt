@@ -1,0 +1,27 @@
+[
+{
+	src:"ajax/img1/6.jpg",
+	content:"索菲亚整体衣柜马赛大百叶 定制衣柜 大衣柜推拉门移门定做",
+	prise:"￥1599.00"
+},
+{
+	src:"ajax/img1/7.jpg",
+	content:"索菲亚旗舰店官方店 整体衣柜定制衣柜 经典百叶带顶柜衣柜",
+	prise:"￥999.00"
+},
+{
+	src:"ajax/img1/8.jpg",
+	content:"宝莱佳 实木生态板 卧室 红橡木 梳妆台 含凳 1E16",
+	prise:"￥1520.00"
+},
+{
+	src:"ajax/img1/9.jpg",
+	content:"瀚庭-全棉四件套-*婚时代",
+	prise:"￥168.00"
+},
+{
+	src:"ajax/img1/10.jpg",
+	content:"全友家私 青少年儿童书房 田园星梦系列 6501书桌架",
+	prise:"￥4293.00"
+}
+]

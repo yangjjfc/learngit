@@ -1,0 +1,110 @@
+[
+{
+	"src":"ajax/img2/mr (1).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	"ppid":"n1",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+},
+{
+	"src":"ajax/img2/mr (2).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	 "ppid":"n2",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+},
+{
+	"src":"ajax/img2/mr (3).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	 "ppid":"n3",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+},
+{
+	"src":"ajax/img2/mr (4).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	 "ppid":"n4",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+},
+{
+	"src":"ajax/img2/mr (5).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	 "ppid":"n5",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+},
+{
+	"src":"ajax/img2/mr (6).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	 "ppid":"n6",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+},
+{
+	"src":"ajax/img2/mr (7).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	 "ppid":"n7",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+},
+{
+	"src":"ajax/img2/mr (8).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	 "ppid":"n8",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+},
+{
+	"src":"ajax/img2/mr (9).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	 "ppid":"n9",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+},
+{
+	"src":"ajax/img2/mr (10).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	 "ppid":"n10",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+},
+{
+	"src":"ajax/img2/mr (11).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	 "ppid":"n11",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+},
+{
+	"src":"ajax/img2/mr (12).jpg",
+	"content":"瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+	 "ppid":"n12",
+	"prise":"¥99.00",
+	"prise_f":"¥588.00",
+	"inventory":"库存100",
+	"area_s":"上海"
+}
+]

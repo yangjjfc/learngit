@@ -1,0 +1,27 @@
+[
+{
+	src:"ajax/img1/11.png",
+	content:"月兔家居两生花移门衣柜定制 欧式推拉门纸",
+	prise:"￥7200.00"
+},
+{
+	src:"ajax/img1/12.jpg",
+	content:"HCG和成卫浴智能马桶盖冲洗器洁身器遥控即热卫洗丽马桶",
+	prise:"￥2280.00"
+},
+{
+	src:"ajax/img1/13.jpg",
+	content:"克罗德曼布艺/松木框架AFB-616床架",
+	prise:"￥5550.00"
+},
+{
+	src:"ajax/img1/14.jpg",
+	content:"鲁师傅X801穿衣镜",
+	prise:"￥3840.00"
+},
+{
+	src:"ajax/img1/15.jpg",
+	content:"电脑椅可升降旋转电脑办公椅子 经典电脑椅 办公用椅子双",
+	prise:"￥279.00"
+},
+]

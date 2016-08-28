@@ -1,0 +1,228 @@
+[
+  {
+    "Headname":"首页>家具家纺>家饰>被子/毯子> 瀚庭—全棉夏凉被空调被-汽车之家 黄色 1.5x2.0",
+    "shopname":"瀚庭—全棉夏凉被空调被-汽车之家 黄色 1.5x2.0",
+    "ppid":"n1",
+    "url":{
+      "url_1":"ajax/img3/x5 (1).jpg",
+      "url_2":"ajax/img3/x5 (2).jpg",
+      "url_3":"ajax/img3/x5 (3).jpg",
+      "url_4":"ajax/img3/x5 (4).jpg",
+      "url_5":"ajax/img3/x5 (5).jpg",
+	  "url_6":"ajax/img3/x5 (3).jpg",
+      "url_7":"ajax/img3/x5 (4).jpg",
+      "url_8":"ajax/img3/x5 (5).jpg"
+    },
+    "scprice": "¥588.00",
+    "shopprice": "¥99.00 ",
+    "sp1":"颜色",
+    "type":{
+          "type_1":{
+            "type1_smimg":"ajax/img3/x5 (1).jpg",
+            "type2_f":"黄色"
+          }
+
+    },
+    "sp2":"尺寸",
+    "size":{
+
+          "size_pid_1":{
+            "size_1":"2.0x2.3m",
+            "pid":"2.0x2.3_1"
+          },
+          "size_pid_2":{
+            "size_1":"1.5x2.0",
+            "pid":"1.5x2.0_1"
+          }
+
+    }
+
+  },
+  {
+    "Headname":"首页>家具家纺>家饰>被子/毯子> 瀚庭-全棉夏凉被空调被-大森林 动物 1.5x2.0",
+    "shopname":"瀚庭-全棉夏凉被空调被-大森林 动物 1.5x2.0",
+    "ppid":"n2",
+    "url":{
+      "url_1":"ajax/img3/x4 (1).jpg",
+      "url_2":"ajax/img3/x4 (2).jpg",
+      "url_3":"ajax/img3/x4 (3).jpg",
+      "url_4":"ajax/img3/x4 (4).jpg",
+      "url_5":"ajax/img3/x4 (5).jpg",
+	  "url_6":"ajax/img3/x4 (3).jpg",
+      "url_7":"ajax/img3/x4 (4).jpg",
+      "url_8":"ajax/img3/x4 (5).jpg"
+    },
+    "scprice": "¥588.00",
+    "shopprice": "¥99.00 ",
+    "sp1":"颜色",
+    "type":{
+      "type_1":{
+        "type1_smimg":"ajax/img3/x4 (1).jpg",
+        "type2_f":"动物"
+      }
+
+    },
+    "sp2":"尺寸",
+    "size":{
+
+        "size_pid_1":{
+          "size_1":"2.0x2.3m",
+          "pid":"2.0x2.3_2"
+        },
+        "size_pid_2":{
+          "size_1":"1.5x2.0",
+          "pid":"1.5x2.0_2"
+        }
+
+
+    }
+
+  },
+  {
+    "Headname":"首页>家具家纺>家饰>被子/毯子>  瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+    "shopname":" 瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0",
+    "ppid":"n3",
+    "url":{
+      "url_1":"ajax/img3/x1 (1).jpg",
+      "url_2":"ajax/img3/x1 (2).jpg",
+      "url_3":"ajax/img3/x1 (3).jpg",
+      "url_4":"ajax/img3/x1 (4).jpg",
+      "url_5":"ajax/img3/x1 (5).jpg",
+      "url_6":"ajax/img3/x1 (6).jpg"
+    },
+    "scprice": "¥588.00",
+    "shopprice": "¥99.00 ",
+    "sp1":"颜色",
+    "type":{
+      "type_1":{
+        "type1_smimg":"ajax/img3/x1 (1).jpg",
+        "type2_f":"粉色"
+      }
+
+    },
+    "sp2":"尺寸",
+    "size":{
+
+
+      "size_pid_1":{
+        "size_1":"2.0x2.3m",
+        "pid":"2.0x2.3_3"
+      },
+      "size_pid_2":{
+        "size_1":"1.5x2.0",
+        "pid":"1.5x2.0_3"
+      }
+
+
+    }
+  },
+  {
+    "Headname":"首页>家具家纺>家饰>被子/毯子> 瀚庭—全棉夏凉被空调被-朵朵花香 碎花 1.5x2.0",
+    "shopname":"瀚庭—全棉夏凉被空调被-朵朵花香 碎花 1.5x2.0",
+    "ppid":"n4",
+    "url":{
+      "url_1":"ajax/img3/x3 (1).jpg",
+      "url_2":"ajax/img3/x3 (2).jpg",
+      "url_3":"ajax/img3/x3 (3).jpg",
+      "url_4":"ajax/img3/x3 (4).jpg",
+      "url_5":"ajax/img3/x3 (5).jpg"
+    },
+    "scprice": "¥588.00",
+    "shopprice": "¥99.00 ",
+    "sp1":"颜色",
+    "type":{
+      "type_1":{
+        "type1_smimg":"ajax/img3/x3 (1).jpg",
+        "type2_f":"碎花"
+      }
+
+    },
+    "sp2":"尺寸",
+    "size":{
+
+      "size_pid_1":{
+        "size_1":"2.0x2.3m",
+        "pid":"2.0x2.3_4"
+      },
+      "size_pid_2":{
+        "size_1":"1.5x2.0",
+        "pid":"1.5x2.0_4"
+      }
+
+
+    }
+
+  },
+  {
+    "Headname":"首页>家具家纺>客厅>沙发> 美诚美诺 客厅 油楠木沙发组合D135 D135 双人沙发",
+    "shopname":"美诚美诺 客厅 油楠木沙发组合D135 D135 双人沙发",
+    "ppid":"n5",
+    "url":{
+      "url_1":"ajax/img3/x2 (1).jpg",
+      "url_2":"ajax/img3/x2 (2).jpg",
+      "url_3":"ajax/img3/x2 (3).jpg",
+      "url_4":"ajax/img3/x2 (4).jpg",
+      "url_5":"ajax/img3/x2 (5).jpg"
+
+    },
+    "scprice": "¥11880.00",
+    "shopprice": "¥8316.00 ",
+    "sp1":"型号",
+    "type":{
+      "type_1":{
+        "type1_smimg":"ajax/img3/x2 (1).jpg",
+        "type2_f":"D135"
+      }
+
+    },
+    "sp2":"规格",
+    "size":{
+
+      "size_pid_1":{
+        "size_1":"单人沙发",
+        "pid":"sin"
+      },
+      "size_pid_2":{
+        "size_1":"双人沙发",
+        "pid":"dob"
+      },
+      "size_pid_3":{
+        "size_1":"多人沙发",
+        "pid":"fus"
+      }
+
+
+    }
+
+  },
+  {
+    "Headname":"首页>家具家纺>客厅>沙发> 米兰斯/布艺沙发/三人位沙发/功能沙发/客厅沙发/M30",
+    "shopname":"米兰斯/布艺沙发/三人位沙发/功能沙发/客厅沙发/M30",
+
+    "ppid":"n6",
+    "url":{
+      "url_1":"ajax/img3/x6.jpg"
+
+
+    },
+    "scprice": "¥6750.00",
+    "shopprice": "¥4500.00 "
+
+
+  },
+  {
+    "Headname":"首页>家具家纺>客厅>电视柜> 鲁师傅金丝柚木D801电视柜",
+    "shopname":"鲁师傅金丝柚木D801电视柜",
+
+    "ppid":"n7",
+    "url":{
+      "url_1":"ajax/img3/x7.jpg"
+
+
+    },
+    "scprice": "¥18000.00",
+    "shopprice": "¥5600.00 "
+
+
+  }
+]

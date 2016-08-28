@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style/golble.css" />
+		<link rel="stylesheet" type="text/css" href="style/style1.css" />
+		<link rel="stylesheet" type="text/css" href="style/style_s.css" />
+		<link rel="stylesheet" type="text/css" href="js/jquery-ui.min.css" />
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/jquery-ui.min.js"></script>		
+		<script src="js/mycookie.js"></script>
+		<script src="js/sub.js"></script>
+		<script src="js/gwc.js"></script>	
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+		<!--//侧边栏-->
+		<div class="side_gol">
+			<div class="side1">
+				<ul>
+					<li class="side1_f1"><a href="javascript:;"></a>
+						<div class="side1_f1_fir"></div>
+						<div class="side1_f1_last">
+							<a href="javascript:;">X</a>
+							<p>没有账号?<a href="register.html">免费注册</a></p>
+							<form  id="login-form" action="index.php?act=login&op=login" method="post">
+								<input type="text"  placeholder="用户名/手机/邮箱" class="text1"/>
+								<p></p>
+								<input type="password"  placeholder="密码" class="text2"/>
+								<p></p>
+								<input type="text" id="captcha" placeholder="请输入验证码" class="text3" maxlength="4"/>
+								<div class="verification_code" onclick="javascript:document.getElementById('codeimage').src='http://www.mallvv.com/shop/index.php?act=seccode&op=makecode&nchash=6093338c&t=' + Math.random();"><img id="codeimage" src="http://www.mallvv.com/shop/index.php?act=seccode&op=makecode&nchash=6093338c&t=' + Math.random();"/></div>
+								<p></p>
+								<p class="post_p1"><a href="#">忘记密码？</a></p>
+								<input type="button" value="登入" class="btn3"/>
+							</form>
+						</div>
+					</li>
+					<li class="side1_f2"><a href="javascript:;"></a><p id="num_2">0</p></li>
+					<li class="side1_f3"><a href="javascript:;"></a></li>
+				</ul>
+				<div class="side1_b">
+					<a href="#"></a>
+					<div class="side1_b_fir"></div>
+				</div>
+			</div>
+			<div class="shop_gw">
+				<h1>我的购物车
+					<a href="javascript:;"></a>
+				</h1>
+				<div class="shop_list">
+					<div class="shop_none">暂无商品</div>
+					<div class="shop_list_xq">
+						<!--<dl class="shop_list_1">
+							<dt><img src="ajax/img3/1.jpg"/></dt>
+							<dd>
+								<h3>广泰办公桔纹烤漆下档</h3>
+								<p><b>¥8316.00</b> × <span>1</span></p>
+							</dd>
+							<div class="shop_list_del"><div>
+						</dl>
+						<dl class="shop_list_1">
+							<dt><img src="ajax/img3/1.jpg"/></dt>
+							<dd>
+								<h3>广泰办公桔纹烤漆下档</h3>
+								<p><b>¥8316.00</b> × <span>1</span></p>
+							</dd>
+						</dl>
+						<dl class="shop_list_1">
+							<dt><img src="ajax/img3/1.jpg"/></dt>
+							<dd>
+								<h3>广泰办公桔纹烤漆下档</h3>
+								<p><b>¥8316.00</b> × <span>1</span></p>
+							</dd>
+						</dl>-->
+
+					</div>
+
+				</div>
+				<h2 id="shop_list_d2">共计金额：<b>¥0.00</b></h2>
+				<a id="shop_list_d" href="gwc.html">结算购物车中的商品</a>
+			</div>
+		</div>
+
+		<div class="header">
+			<div class="header_t">
+				<div class="layout">
+					<div class="citys">送至：<b>北京</b> &nbsp<span>∨</span>
+					
+						<ul class="deliver-address">
+			              	<li class="selected"><a href="javascript:void(0)">北京</a></li>
+			                <li><a href="javascript:void(0)">上海</a></li>
+			                <li><a href="javascript:void(0)">深圳</a></li>
+			                <li><a href="javascript:void(0)">天津</a></li>
+			                <li><a href="javascript:void(0)">广州</a></li>
+			                <li><a href="javascript:void(0)">河南</a></li>
+			                <li><a href="javascript:void(0)">河北</a></li>
+			                <li><a href="javascript:void(0)">山西</a></li>
+			                <li><a href="javascript:void(0)">陕西</a></li>
+			                <li><a href="javascript:void(0)">青岛</a></li>
+			                <li><a href="javascript:void(0)">上海</a></li>
+			                <li><a href="javascript:void(0)">深圳</a></li>
+			                <li><a href="javascript:void(0)">天津</a></li>
+			                <li><a href="javascript:void(0)">广州</a></li>
+			                <li><a href="javascript:void(0)">河南</a></li>
+			                <li><a href="javascript:void(0)">河北</a></li>
+			                <li><a href="javascript:void(0)">山西</a></li>
+			                <li><a href="javascript:void(0)">陕西</a></li>
+			                <li><a href="javascript:void(0)">青岛</a></li>
+	            		</ul>
+					</div>
+					<div class="header_tr">
+						<h3 >您好　<a href="#" id="username"> </a>，欢迎来到 &nbsp<a class="first" href="submit.html">为为商城<p id="us_p1"><span>  请登录</span></a>&nbsp&nbsp<a href="register.html">免费注册</a></p><p id="us_p2">&nbsp&nbsp<a href="javascript:void(0)" id="leave">[退出]</a></p>&nbsp&nbsp</h3>
+						<ul>
+							<li class="menu"><a href="#">我的订单</a> <span> ∨  </span>
+								<ul class="shop">
+									<li><a href="#">待付款订单</a></li>
+									<li><a href="#">待确认收货</a></li>
+									<li><a href="#">待评价交易</a></li>
+								</ul>
+							</li>
+							<li><a href="#">商家中心</a> <span>  ∨    </span>
+								<ul class="shop">
+									<li><a href="#">申请驻入</a></li>
+									<li><a href="#">我的店铺</a></li>
+								</ul>
+							</li>
+							<li class="list huawei"><img src="images/h1.png"/><a href="#">华为手机</a> </li>
+							<li><a href="#">客户服务</a> <span>  ∨    </span>
+								<ul class="shop">
+									<li><a href="#">帮助中心</a></li>
+									<li><a href="#">售后服务</a></li>
+									<li><a href="#">客服中心</a></li>
+								</ul>
+							</li>
+							<li class="list last menu"><img src="images/h2.png"/><a href="#">关注我们</a>  <span>∨</span>
+								
+								<div class="weixing shop">
+									<h4>扫描二维码<br/>关注商城微信号</h4>
+									<img src="images/h8.gif"  />
+								</div>
+								
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+			<div class="header_b layout">
+				<div class="logo ">
+					<a href="#"><img class="logo1" src="images/h9.png" /></a>
+				</div>
+				<div class="header_br">
+					<form  class="search1">
+						<div class="SP">商品
+							<img src="images/h4.png"/>
+							<ul>
+								<li><a href="#">商铺</a></li>
+								<li><a href="#">店铺</a></li>
+							</ul>
+						</div>
+						<input type="text" placeholder="请输入您要输写的关键字" class="inp1"/>
+						<button  class="btn1">搜索</button>
+					</form>
+					<div class="cart">
+						<em><a href="gwc.html">我的购物车</a></em>
+						<img src="images/gw.png" />
+						<div class="cartlist">
+							<h4>最新加入的商品</h4>
+							<ul id="cartlist_m">
+								<!--<li class="cartlist_t1">
+                                    <div class="cartlist_1"><a href="#"><img src="ajax/img3/1.jpg"></a></div>
+                                    <div class="cartlist_2">全友家居 时尚卧室家具法式 罗曼尼玫瑰系列 床头柜 65903</div>
+                                    <div class="cartlist_3"><p><b>¥863.00</b>×<span>1</span></p><a href="javascript:void(0)">删除</a></div>
+                                </li>
+                                <li class="cartlist_t1">
+                                    <div class="cartlist_1"><a href="#"><img src="ajax/img3/1.jpg"></a></div>
+                                    <div class="cartlist_2">全友家居 时尚卧室家具法式 罗曼尼玫瑰系列 床头柜 65903</div>
+                                    <div class="cartlist_3"><p><b>¥863.00</b>×<span>1</span></p><a href="javascript:void(0)" class="cartlist_btn1">删除</a></div>
+                                </li>-->
+
+							</ul>
+							<div class="cartlist_b">
+								<p>共<span id="shop_s"></span>种商品  总计金额：<b>0.00</b></p>
+								<a href="gwc.html"></a>
+							</div>
+						</div>
+						<p id="num">0</p>
+					</div>
+					<div class="header_brb">
+						<a href="#"><span>沙发</span></a>
+						<a href="#">床</a>
+						<a href="#">瓷砖</a>
+						<a href="#"><span>地板</span></a>
+						<a href="#">餐桌</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--header over-->
+		<!--nav start-->
+		<div class="nav ">
+			<div class="layout">
+				<div class="nav_l">
+					<h2><a href="#">精选分类推荐</a></h2>
+					<div class="nav_list" id="nav_list">
+						<dl>
+							<dt><a href="#">建材</a></dt>
+							<dd>
+								<a href="#">基础建材</a><a href="#">瓷砖/大理石</a><a href="#">卫浴</a><a href="#">集成吊顶</a><a href="#">橱柜</a><a href="#">淋浴房</a><a href="#">地板/榻榻米</a><a href="#">移门衣柜</a><a href="#">墙纸</a><a href="#">门窗</a><a href="#">净水器/水处理</a>
+							
+							</dd>
+						</dl>
+						<dl>
+							<dt><a href="#">家具家纺</a></dt>
+							<dd>
+								<a href="#">卧室</a><a href="#">客厅</a><a href="#">餐厅</a><a href="#">书房</a><a href="#">儿童房</a><a href="#"> 办公家具</a><a href="#">家饰</a>
+								
+							</dd>
+						</dl>
+						<dl>
+							<dt><a href="#">为为旅游</a></dt>
+							<dd>
+								<a href="#">暑期亲子</a><a href="#">自由行</a><a href="#">景点门票</a><a href="#">休闲游轮</a><a href="#">浪漫海岛</a><a href="#">日韩亚洲</a>
+								
+							</dd>
+						</dl>
+					
+					</div>
+				</div>
+					<ul class="nav_m">
+						<li><a href="index.html">首页</a></li>
+						<li class="nav_hot"><a href="productShow.html">建材</a>
+							<div class="building">
+								<ul>
+									<li>
+										<dl class="building_fir">
+											<dt><a href="#">基础建材</a></dt>
+											<dd>
+												<a href="#">其他辅料</a><a href="#">开关插座</a><a href="#"> 油漆涂料</a><a href="#"> 电线</a>
+											</dd>
+										</dl>
+										
+										<dl>
+											<dt><a href="#">橱柜</a></dt>
+											<dd>
+			    								<a href="#">整体橱柜</a><a href="#">柜体</a><a href="#"></a><a href="#">门板</a><a href="#">台面</a><a href="#">橱柜配件	</a>		
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="#">易门衣柜</a></dt>
+											<dd>
+												<a href="#">衣柜移门</a><a href="#">整体衣柜</a><a href="#">隔断衣柜</a><a href="#">折叠门</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="#">净水器/处理器</a></dt>
+											<dd>
+												<a href="#">净水器/水处理</a>
+											</dd>
+										</dl>
+									</li>
+									<li>
+										<dl class="building_fir">
+											<dt><a href="#">瓷砖/大理石</a></dt>
+											<dd>
+												<a href="#"> 釉面砖</a><a href="#">玻化砖</a><a href="#">仿古砖</a><a href="#">木纹砖</a><a href="#">微晶石</a><a href="#">抛光砖</a><a href="#">大理石</a><a href="#">瓷砖辅料</a>    
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="#">沐浴房</a></dt>
+											<dd>
+												<a href="#">定制淋浴房</a>
+												
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="#">墙纸</a></dt>
+											<dd>
+												<a href="#">无纺布墙纸</a><a href="#">纯纸墙纸</a>  								
+											</dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><a href="#">卫浴</a></dt>
+											<dd>
+												<a href="#">坐便器</a><a href="#">坐便器盖板</a><a href="#">龙头</a><a href="#">卫浴套装</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="#">集成吊顶</a></dt>
+											<dd>
+												<a href="#">多功能组合电器</a><a href="#">照明模块</a><a href="#">扣板模块</a><br/><a href="#">换气模块</a><a href="#">灯暖模块</a><a href="#"> 暖风模块</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="#">地板/榻榻米</a></dt>
+											<dd>
+												<a href="#">实木地板</a><a href="#">强化复合地板</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="#">门窗</a></dt>
+											<dd>
+												<a href="#">防盗门</a><a href="#">木门</a><a href="#">阳台窗</a>
+											</dd>
+										</dl>
+									</li>
+								</ul>	
+							</div>
+						</li>
+						<li class="nav_hot"><a href="productShow.html">家具家纺</a>
+							<div class="furniture">
+								<ul>
+									<li>
+										<dl class="furniture_fir">
+											<dt><a href="#">卧室</a></dt>
+											<dd>
+												<a href="#">床</a><a href="#">床垫</a><a href="#">床头柜</a><a href="#">衣柜</a><a href="#">斗柜</a><br/><a href="#">妆台镜/妆凳</a><a href="#"> 穿衣镜/衣帽架</a><a href="#">床尾凳</a><a href="#"> 卧室套装</a>
+											</dd>
+										</dl>
+										
+										<dl>
+											<dt><a href="#">儿童床</a></dt>
+											<dd>
+			    								<a href="#">儿童床</a><a href="#">儿童床垫</a><a href="#"></a><a href="#">儿童床头柜</a><a href="#">儿童衣柜</a><a href="#">儿童书桌/电脑台</a>	<a href="#">儿童柜类</a><a href="#">儿童房套装</a>
+											</dd>
+										</dl>
+										
+									</li>
+									<li>
+										<dl class="furniture_fir">
+											<dt><a href="#">客厅</a></dt>
+											<dd>
+												<a href="#">沙发</a><a href="#">茶几/边几</a><a href="#">电视柜</a><a href="#">鞋柜</a><a href="#">酒柜/装饰柜</a><a href="#">休闲椅/凳</a><a href="#">间厅/玄关柜</a><a href="#">客厅套装</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="#">办公家具</a></dt>
+											<dd>
+												<a href="#"> 办公桌</a><a href="#">文件柜</a><a href="#">办公椅</a>
+											</dd>
+										</dl>
+										
+									</li>
+									<li>
+										<dl>
+											<dt><a href="#">餐厅</a></dt>
+											<dd>
+												<a href="#">坐便器</a><a href="#">坐便器盖板</a><a href="#">龙头</a><a href="#">卫浴套装</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="#">书房</a></dt>
+											<dd>
+												<a href="#">书桌/工作台</a><a href="#">书柜/书架</a><a href="#">书椅/转椅</a><a href="#">书房套装</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<a href="#">家饰</a>										
+											</dt>
+											<dd>
+												<a href="#">床上用品</a><a href="#">布艺织物</a><a href="#">香薰制品</a><a href="#">四件套</a><a href="#">被子/毯子</a><a href="#">凉席</a>
+											</dd>
+										</dl>
+										
+									</li>
+								</ul>	
+							</div>
+						</li>
+						<li><a href="productShow.html">品牌</a></li>
+						<li><a href="productShow.html">店铺</a></li>
+						<li><a href="productShow.html">装修攻略</a></li>
+						<li><a href="productShow.html">装修图库</a></li>
+					</ul>
+					<img src="images/n3.png" />
+				
+			</div>
+		</div>
+		<!--nav over-->
+		
+		<div class="shopxq layout">
+			
+			<h4>首页>家具家纺>家饰>被子/毯子> 瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0<span>> 瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0</span></h4>
+			<div class="shopxq_t">
+				<div class="shopxq_t_img">
+					<div class="shopxq_t_img_s">
+						<img src="ajax/img3/x1 (1).jpg" />
+						<div id="shopxq_t_m_fdj"></div>
+						<div id="zoom"><img id="zoom_img"  src="ajax/img3/x1 (1).jpg" /></div>
+					</div>
+					
+					<div class="shopxq_t_s">
+						<div id="shopxq_t_s">
+							<a href="javascript:void(0)" id="shopxq_t_s_btn1"><</a>
+							<a href="javascript:void(0)" id="shopxq_t_s_btn2">></a>
+							<ul id="ul_list">
+								<li><img src="ajax/img3/x1 (1).jpg" /></li>
+								<li><img src="ajax/img3/x1 (2).jpg" /></li>
+								<li><img src="ajax/img3/x1 (3).jpg" /></li>
+								<li><img src="ajax/img3/x1 (4).jpg" /></li>
+								<li><img src="ajax/img3/x1 (5).jpg" /></li>
+								<li><img src="ajax/img3/x1 (6).jpg" /></li>
+								<li><img src="ajax/img3/x1 (6).jpg" /></li>
+								<li><img src="ajax/img3/x1 (6).jpg" /></li>
+							</ul>
+						</div>
+						<p><span>收藏商品(0)</span><em>举报</em></p>	
+					</div>
+				</div>
+				<div class="shopxq_t_m">
+					<h1 name="k1">瀚庭—全棉夏凉被空调被-格情空间 粉色 2.0x2.3m</h1>
+					<div class="shopxq_t_m_prise">
+						<p>市 场 价： <em>¥688.00</em></p>
+						<p>商 城 价： <b>¥139.00</b></p>
+						<div class="pf">
+							<p><a href="#">商品评分</a></p>
+							<img src="ajax/img3/x2.png"/><img src="ajax/img3/x2.png"/><img src="ajax/img3/x2.png"/><img src="ajax/img3/x2.png"/><img src="ajax/img3/x2.png"/>
+						</div>
+					</div>
+					<div class="shopxq_t_m_ys">至　<span>全国 </span>：<em>卖家承担运费</em></div>
+					<div class="shopxq_t_m_co">
+						<dl class="shopxq_t_m_co_1">
+							<dt>颜色：</dt>
+							<dd class="shopxq_t_m_dd shop_1 shop_btn1"><img src="ajax/img3/x1 (1).jpg"/> 粉色</dd>
+						</dl>
+						<dl class="shopxq_t_m_co_2">
+							<dt>尺寸：</dt>
+							<dd class="shopxq_t_m_dd shop_1 shop_btn2" pid="2.0x2.3">2.0x2.3m</dd>
+							<dd class="shopxq_t_m_dd shop_1 shop_btn2" pid="1.5x2.0">1.5x2.0</dd>
+						</dl >
+						<dl class="shopxq_t_m_co_3">
+							<dt>购买数量：</dt>
+							<dd id="ts_d" >1</dd>
+							<dd id="ts">
+								<a href="javascript:void(0)" class="shopxq_t_m_co_3_j shopxq_t_m_dd">+</a>
+								<a href="javascript:void(0)" class="shopxq_t_m_co_3_j shopxq_t_m_dd">-</a>
+							</dd>
+							<p >(当前库存<span>100</span>件 )</p>
+						</dl>
+						<div class="shopxq_t_m_co_s">已选择 <span>粉色</span>，<b>1.5x2.0</b></div>
+						<a  id="shopxq_t_m_btn1" href="javascript:void(0)"></a>
+						<a  id="shopxq_t_m_btn2" href="javascript:void(0)"></a>
+					</div>
+					
+				</div>
+				<div class="shopxq_t_r"></div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+	</body>
+</html>

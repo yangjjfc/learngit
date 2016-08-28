@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style/golble.css" />
+		<link rel="stylesheet" type="text/css" href="style/style1.css" />
+		<link rel="stylesheet" type="text/css" href="style/style_s.css" />
+		<link rel="stylesheet" type="text/css" href="js/jquery-ui.min.css" />
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/jquery-ui.min.js"></script>	
+		<script src="js/sub.js"></script>
+		<script src="js/mycookie.js"></script>
+		<script src="js/gwc.js"></script>
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+		<!--//侧边栏-->
+		<div class="side_gol">
+			<div class="side1">
+				<ul>
+					<li class="side1_f1"><a href="javascript:;"></a>
+						<div class="side1_f1_fir"></div>
+						<div class="side1_f1_last">
+							<a href="javascript:;">X</a>
+							<p>没有账号?<a href="register.html">免费注册</a></p>
+							<form  id="login-form" action="index.php?act=login&op=login" method="post">
+								<input type="text"  placeholder="用户名/手机/邮箱" class="text1"/>
+								<p></p>
+								<input type="password"  placeholder="密码" class="text2"/>
+								<p></p>
+								<input type="text" id="captcha" placeholder="请输入验证码" class="text3" maxlength="4"/>
+								<div class="verification_code" onclick="javascript:document.getElementById('codeimage').src='http://www.mallvv.com/shop/index.php?act=seccode&op=makecode&nchash=6093338c&t=' + Math.random();"><img id="codeimage" src="http://www.mallvv.com/shop/index.php?act=seccode&op=makecode&nchash=6093338c&t=' + Math.random();"/></div>
+								<p></p>
+								<p class="post_p1"><a href="#">忘记密码？</a></p>
+								<input type="button" value="登入" class="btn3"/>
+							</form>
+						</div>
+					</li>
+					<li class="side1_f2"></li>
+					<li class="side1_f3"><a href="javascript:;"></a></li>
+				</ul>
+				<div class="side1_b">
+					<a href="#"></a>
+					<div class="side1_b_fir"></div>
+				</div>
+			</div>
+			<div class="shop_gw">
+				<h1>我的购物车
+					<a href="javascript:;"></a>
+				</h1>
+				<div class="shop_list">
+					<div class="shop_none">暂无商品</div>
+					<div class="shop_list_xq">
+						<!--<dl class="shop_list_1">
+							<dt><img src="ajax/img3/1.jpg"/></dt>
+							<dd>
+								<h3>广泰办公桔纹烤漆下档</h3>
+								<p><b>¥8316.00</b> × <span>1</span></p>
+							</dd>
+							<div class="shop_list_del"><div>
+						</dl>
+						<dl class="shop_list_1">
+							<dt><img src="ajax/img3/1.jpg"/></dt>
+							<dd>
+								<h3>广泰办公桔纹烤漆下档</h3>
+								<p><b>¥8316.00</b> × <span>1</span></p>
+							</dd>
+						</dl>
+						<dl class="shop_list_1">
+							<dt><img src="ajax/img3/1.jpg"/></dt>
+							<dd>
+								<h3>广泰办公桔纹烤漆下档</h3>
+								<p><b>¥8316.00</b> × <span>1</span></p>
+							</dd>
+						</dl>-->
+
+					</div>
+
+				</div>
+				<h2 id="shop_list_d2">共计金额：<b>¥0.00</b></h2>
+				<a id="shop_list_d" href="gwc.html">结算购物车中的商品</a>
+			</div>
+		</div>
+		<div class="header">
+			<div class="header_t">
+				<div class="layout">
+					<div class="citys">送至：<b>北京</b> &nbsp<span>∨</span>
+					
+						<ul class="deliver-address">
+			              	<li class="selected"><a href="javascript:void(0)">北京</a></li>
+			                <li><a href="javascript:void(0)">上海</a></li>
+			                <li><a href="javascript:void(0)">深圳</a></li>
+			                <li><a href="javascript:void(0)">天津</a></li>
+			                <li><a href="javascript:void(0)">广州</a></li>
+			                <li><a href="javascript:void(0)">河南</a></li>
+			                <li><a href="javascript:void(0)">河北</a></li>
+			                <li><a href="javascript:void(0)">山西</a></li>
+			                <li><a href="javascript:void(0)">陕西</a></li>
+			                <li><a href="javascript:void(0)">青岛</a></li>
+			                <li><a href="javascript:void(0)">上海</a></li>
+			                <li><a href="javascript:void(0)">深圳</a></li>
+			                <li><a href="javascript:void(0)">天津</a></li>
+			                <li><a href="javascript:void(0)">广州</a></li>
+			                <li><a href="javascript:void(0)">河南</a></li>
+			                <li><a href="javascript:void(0)">河北</a></li>
+			                <li><a href="javascript:void(0)">山西</a></li>
+			                <li><a href="javascript:void(0)">陕西</a></li>
+			                <li><a href="javascript:void(0)">青岛</a></li>
+	            		</ul>
+					</div>
+					<div class="header_tr">
+						<h3 >您好　<a href="#" id="username"> </a>，欢迎来到 &nbsp<a class="first" href="submit.html">为为商城<p id="us_p1"><span>  请登录</span></a>&nbsp&nbsp<a href="register.html">免费注册</a></p><p id="us_p2">&nbsp&nbsp<a href="javascript:void(0)" id="leave">[退出]</a></p>&nbsp&nbsp</h3>
+						<ul>
+							<li class="menu"><a href="#">我的订单</a> <span> ∨  </span>
+								<ul class="shop">
+									<li><a href="#">待付款订单</a></li>
+									<li><a href="#">待确认收货</a></li>
+									<li><a href="#">待评价交易</a></li>
+								</ul>
+							</li>
+							<li><a href="#">商家中心</a> <span>  ∨    </span>
+								<ul class="shop">
+									<li><a href="#">申请驻入</a></li>
+									<li><a href="#">我的店铺</a></li>
+								</ul>
+							</li>
+							<li class="list huawei"><img src="images/h1.png"/><a href="#">华为手机</a> </li>
+							<li><a href="#">客户服务</a> <span>  ∨    </span>
+								<ul class="shop">
+									<li><a href="#">帮助中心</a></li>
+									<li><a href="#">售后服务</a></li>
+									<li><a href="#">客服中心</a></li>
+								</ul>
+							</li>
+							<li class="list last menu"><img src="images/h2.png"/><a href="#">关注我们</a>  <span>∨</span>
+								
+								<div class="weixing shop">
+									<h4>扫描二维码<br/>关注商城微信号</h4>
+									<img src="images/h8.gif"  />
+								</div>
+								
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+			<div class="header_b layout2" id="header_b">
+				<div id="logo ">
+					<a href="#"><img id="logo1" src="images/gwc.png" /></a>
+				</div>
+				
+			</div>
+			
+		</div>
+		<!--header over-->
+		
+		
+		
+		<div class="gwc layout2">
+			<div class="gwc_t">
+				<h1>我的购物车</h1>
+				<p>查看购物车商品清单，增加减少商品数量，并勾选想要的商品进入下一步操作。</p>
+			</div>
+			<div class="gwc_xq">
+				<div class="gwc_xq_t">
+					<input type="checkbox" name="sp"/>
+					<ul>
+						<li class="gwc_xq_t_1">全选</li>
+						<li class="gwc_xq_t_2">商品</li>
+						<li class="gwc_xq_t_3">单价(元)</li>
+						<li class="gwc_xq_t_4">数量</li>
+						<li class="gwc_xq_t_5">小计(元)</li>
+						<li class="gwc_xq_t_6">操作</li>
+					</ul>
+				</div>
+				<div class="gwc_xq_m">
+					<!--<dl>
+						<dt>店铺：瀚庭家纺旗舰店</dt>
+						<dd>
+							<ul>
+								<li class="gwc_xq_m_1"><input type="checkbox" name="sp"/></li>
+								<li class="gwc_xq_m_2"><img src="ajax/img3/1.jpg"/></li>
+								<li class="gwc_xq_m_3" pid="">瀚庭—全棉夏凉被空调被-格情空间 粉色 1.5x2.0</li>
+								<li class="gwc_xq_m_4">99.00</li>
+								<li class="gwc_xq_m_5"><button class="btn_10">-</button><p>12</p><button class="btn_11">+</button></li>
+								<li class="gwc_xq_m_6">198.00</li>
+								<li class="gwc_xq_m_7"><a href="javascript:void(0)" class="collect">收藏</a><a href="javascript:void(0)" class="delect">删除</a></li>				
+							</ul>
+						</dd>
+						
+						<dd class="gwc_xq_m_b"><p>店铺合计：　　　　<b>337.00</b>　　<span>元</span>　　</p></dd>
+					</dl>-->
+					
+				</div>
+				
+				<div id="gwc_xq_b">
+					<p>商品总价（不含运费）　　<b>0.00</b>　　<span>元</span>　</p>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+	</body>
+</html>
